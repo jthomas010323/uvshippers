@@ -17,12 +17,11 @@ function App() {
     //     {/* Add more routes for other pages */}
     //   </Switch>
     // </Router>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Construction />} />
-        <Route path="/random" element={<Random />} />
-      </Routes>
-    </BrowserRouter>
+
+    <Routes>
+      <Route path="/" element={<Construction />} />
+      <Route path="/random" element={<Random />} />
+    </Routes>
   );
 }
 
