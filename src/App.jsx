@@ -7,11 +7,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav>
+      {/* <nav>
         <Link to="/">Construction</Link>
         {" | "}
         <Link to="/random">Random</Link>
-      </nav>
+      </nav> */}
       <Outlet />
     </>
   );
