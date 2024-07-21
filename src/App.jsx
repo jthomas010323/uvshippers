@@ -18,10 +18,11 @@ function App() {
     //   </Switch>
     // </Router>
     <>
-      {/* <nav>
+      <nav>
         <Link to="/">Construction</Link>
+        {" | "}
         <Link to="/random">Random</Link>
-      </nav> */}
+      </nav>
       <Outlet />
     </>
   );
