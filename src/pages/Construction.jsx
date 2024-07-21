@@ -1,3 +1,4 @@
+import React from "react";
 import uvshippersLogo from "../assets/uvshippers-logo.png";
 import upsLogo from "../assets/ups-logo-png-transparent.png";
 import "../App.css";
