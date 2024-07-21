@@ -6,23 +6,12 @@ import "./App.css";
 
 function App() {
   return (
-    // <Router>
-    //   <Switch>
-    //     <Route exact path="/">
-    //       <Construction />
-    //     </Route>
-    //     <Route path="/random">
-    //       <Random />
-    //     </Route>
-    //     {/* Add more routes for other pages */}
-    //   </Switch>
-    // </Router>
     <>
-      <nav>
+      {/* <nav>
         <Link to="/">Construction</Link>
         {" | "}
         <Link to="/random">Random</Link>
-      </nav>
+      </nav> */}
       <Outlet />
     </>
   );
