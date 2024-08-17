@@ -5,7 +5,8 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Construction from "./pages/Construction.jsx";
-import Random from "./pages/Random.jsx";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,11 +15,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/construction",
         element: <Construction />,
       },
       {
-        path: "/random",
-        element: <Random />,
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

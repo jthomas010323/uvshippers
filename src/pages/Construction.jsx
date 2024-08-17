@@ -5,7 +5,7 @@ import "../App.css";
 
 function Construction() {
   return (
-    <div className="font-bold">
+    <div className="font-bold flex flex-col mt-24 items-center justify-center">
       <div>
         <a target="_blank">
           <img
