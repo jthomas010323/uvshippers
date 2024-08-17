@@ -6,6 +6,7 @@ import ProductCards from "../components/ProductCards";
 import uvshippersLogo from "../assets/uvshippers-logo.png";
 import upsLogo from "../assets/ups-logo-png-transparent.png";
 import fedexLogo from "../assets/fedex.png";
+import makatiLogo from "../assets/makatiLogo.png";
 import faxImg from "../assets/faxImage.png";
 import packageImg from "../assets/packageSupplies.png";
 import copyImg from "../assets/copying.png";
@@ -59,11 +60,12 @@ const Home = () => {
         </section>
         <section className="my-10">
           <h2 className="text-center text-2xl font-bold pb-5">
-            Authorized UPS and FedEx Shipping Center
+            Authorized UPS, FedEx, and Makati Express Shipping Center
           </h2>
-          <div className="flex flex-row">
+          <div className="flex sm:flex-row flex-col flex-wrap justify-evenly">
             <img src={upsLogo} className="h-32 mb-2 mx-auto" />
             <img src={fedexLogo} className="h-32 mb-2 mx-auto" />
+            <img src={makatiLogo} className="h-32 mb-2 mx-auto" />
           </div>
         </section>
         <section class="w-full mb-5">

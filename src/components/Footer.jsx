@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="">
       <div className="mx-auto w-full ">
-        <div className="bg-shippers-orange grid grid-cols-2 gap-8 px-24 py-6 lg:py-8 md:grid-cols-4">
+        <div className="bg-shippers-orange grid grid-cols-2 gap-8 px-5 sm:px-24  py-6 lg:py-8 md:grid-cols-4">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Store Hours
@@ -47,6 +47,9 @@ const Footer = () => {
               <li className="mb-4">
                 <a className="">FEDEX</a>
               </li>
+              <li className="mb-4">
+                <a className="">MAKATI EXPRESS</a>
+              </li>
             </ul>
           </div>
           <div>
@@ -63,11 +66,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="px-24 py-6 bg-default-background flex items-center justify-between w-full">
+        <div className="px-5 sm:px-24 py-6 bg-default-background flex items-center justify-between w-full">
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
             © 2024 <a>Universal Shippers</a>. All Rights Reserved.
           </span>
-          <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+          <div className="flex sm:justify-center space-x-5 rtl:space-x-reverse">
             <a
               href="https://www.instagram.com/uvshippers"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
