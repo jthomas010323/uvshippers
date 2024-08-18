@@ -40,7 +40,7 @@ const Navbar = () => {
             <li>
               <a
                 href="/contact"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded  md:border-0 hover:text-white  "
+                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:underline md:border-0 hover:text-white  "
               >
                 Contact Us
               </a>
