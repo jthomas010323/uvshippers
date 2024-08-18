@@ -12,5 +12,4 @@ const ProductCards = ({ name, imgUrl }) => {
     </div>
   );
 };
-
 export default ProductCards;
