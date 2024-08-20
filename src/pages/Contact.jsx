@@ -7,22 +7,27 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
   const [submittedForm, setSubmittedForm] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_ei13jbb", "template_7fefx5d", form.current, {
-        publicKey: "c7VdpwhbL71EAJzqT",
+      .sendForm("service_y67yegf", "template_7fefx5d", form.current, {
+        publicKey: "rsMUrvmGfggXFhn07",
       })
       .then(
         () => {
           console.log("SUCCESS!");
+          setSubmittedForm(true);
         },
         (error) => {
           console.log("FAILED...", error.text);
         }
       );
-    setSubmittedForm(true);
+    setIsSubmitting(true);
+    setTimeout(() => {
+      window.location.href = "../";
+    }, "2000");
   };
 
   return (
@@ -96,8 +101,9 @@ const Contact = () => {
                 <button
                   type="submit"
                   className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-shippers-orange sm:w-fit  focus:ring-4 focus:outline-none"
+                  disabled={isSubmitting}
                 >
-                  Send message
+                  {isSubmitting ? "Submitting..." : "Send message"}
                 </button>
               </form>
             )}
