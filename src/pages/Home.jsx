@@ -23,16 +23,27 @@ const Home = () => {
       <body>
         <section class="bg-[#242424]">
           <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="mr-auto place-self-center lg:col-span-7">
-              <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <div class="lg:mr-auto place-self-center lg:col-span-7">
+              <h1 class="text-center lg:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
                 Universal Shippers
               </h1>
-              <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                Universal Shippers Corp is a UPS Authorized Shipping Outlet and
-                shipping supply store conveniently located in northern Staten
-                Island. We carry packaging supplies such as cardboard boxes,
-                packing tapes, bubble wrap, packing peanuts and mailing tubes.
-                Fax and copying services are also available.
+              <p class="max-w-2xl lg:text-left text-center font-light text-white md:text-base lg:text-lg dark:text-gray-400">
+                Universal Shippers Corp is your go-to UPS-authorized shipping
+                outlet and supply store on northern Staten Island. Whether
+                you're shipping a single package or managing a truckload of
+                shipments, we've covered you with a wide range of packaging
+                supplies, including sturdy cardboard boxes, durable packing
+                tape, protective bubble wrap, packing peanuts, and mailing
+                tubes. Our large receiving area can accommodate truckloads of
+                packages, making it easy for businesses to handle bulk
+                shipments. Our team offers expert packing advice to ensure your
+                items are secure, and we also provide convenient business
+                solutions like faxing and copying, making us a one-stop shop for
+                all your shipping and office needs. With the ability to ship
+                through FedEx and UPS, we offer flexible options to get your
+                packages to their destination quickly and reliably. Stop by
+                Universal Shippers Corp for all your shipping needs—we're
+                committed to making your experience fast, easy, and hassle-free.
               </p>
               {/* <a
                 href="#"
@@ -53,8 +64,12 @@ const Home = () => {
                 </svg>
               </a> */}
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-              <img src={uvshippersLogo} alt="mockup" />
+            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex ">
+              <img
+                className="object-contain"
+                src={uvshippersLogo}
+                alt="mockup"
+              />
             </div>
           </div>
         </section>
