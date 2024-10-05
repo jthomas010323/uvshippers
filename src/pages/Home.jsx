@@ -14,6 +14,7 @@ import shippingImg from "../assets/shippingImg.png";
 import mailboxImg from "../assets/mailboxImg.png";
 import recievingImg from "../assets/recievingImg.png";
 import uhaulImg from "../assets/uhaul.png";
+import ipostal from "../assets/ipostal.png";
 
 const Home = () => {
   return (
@@ -94,6 +95,14 @@ const Home = () => {
             <ProductCards name="Fax Services" imgUrl={faxImg} />
             <ProductCards name="Copying Services" imgUrl={copyImg} />
             <ProductCards name="Mailbox Rental" imgUrl={mailboxImg} />
+            <a href="https://ipostal1.com/select_plan.php">
+              <ProductCards
+                name="IPostal MailBox (Click Here)"
+                imgUrl={ipostal}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            </a>
             <ProductCards name="U-Haul Rental" imgUrl={uhaulImg} />
           </div>
         </section>
