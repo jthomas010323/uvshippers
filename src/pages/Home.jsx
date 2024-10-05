@@ -15,6 +15,7 @@ import mailboxImg from "../assets/mailboxImg.png";
 import recievingImg from "../assets/recievingImg.png";
 import uhaulImg from "../assets/uhaul.png";
 import ipostal from "../assets/ipostal.png";
+import shipindus from "../assets/shipindus.png";
 
 const Home = () => {
   return (
@@ -82,6 +83,7 @@ const Home = () => {
             <img src={upsLogo} className="h-32 mb-2 mx-auto" />
             <img src={fedexLogo} className="h-32 mb-2 mx-auto" />
             <img src={makatiLogo} className="h-32 mb-2 mx-auto" />
+            <img src={shipindus} className="h-28 mb-2 mx-auto" />
           </div>
         </section>
         <section class="w-full mb-5">
@@ -95,7 +97,7 @@ const Home = () => {
             <ProductCards name="Fax Services" imgUrl={faxImg} />
             <ProductCards name="Copying Services" imgUrl={copyImg} />
             <ProductCards name="Mailbox Rental" imgUrl={mailboxImg} />
-            <a href="https://ipostal1.com/select_plan.php">
+            <a href="https://hq4ypryg.r.us-west-2.awstrack.me/L0/https:%2F%2Fipostal1.com%2FCP%2F..%2Fsecure_checkout.php%3FstID=4832%26aID=11566%26em=3389/1/0101019259071f87-159bada2-8a15-4ec9-ba6c-6094125a2115-000000/EXNWZoKlfzSAr0OjAAdMf-nqOe0=395">
               <ProductCards
                 name="IPostal MailBox (Click Here)"
                 imgUrl={ipostal}
