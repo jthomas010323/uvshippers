@@ -79,11 +79,13 @@ const Home = () => {
           <h2 className="text-center text-2xl font-bold pb-5">
             Authorized UPS, FedEx, and Makati Express Shipping Center
           </h2>
-          <div className="flex sm:flex-row flex-col flex-wrap justify-evenly">
+          <div className="flex sm:flex-row flex-col flex-wrap justify-evenly mx-10">
             <img src={upsLogo} className="h-32 mb-2 mx-auto" />
             <img src={fedexLogo} className="h-32 mb-2 mx-auto" />
             <img src={makatiLogo} className="h-32 mb-2 mx-auto" />
-            <img src={shipindus} className="h-28 mb-2 mx-auto" />
+            <a href="https://www.shipindus.com/shipping/shipindus-staten-island-ny">
+              <img src={shipindus} className="h-28 mb-2 mx-auto" />
+            </a>
           </div>
         </section>
         <section class="w-full mb-5">
